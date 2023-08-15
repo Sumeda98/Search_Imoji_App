@@ -22,6 +22,7 @@ export default class App extends PureComponent {
     return (
       <div>
         <Header />
+        <div></div>
         <SearchInput textChange={this.handleSearchChange} />
         <EmojiResults emojiData={this.state.filteredEmoji} />
       </div>
